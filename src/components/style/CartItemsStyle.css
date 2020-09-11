@@ -1,0 +1,101 @@
+.cart-item-container{
+    position: relative;
+    overflow: scroll;
+    
+}
+.cart-item-container::-webkit-scrollbar{
+    display: none;
+}
+.cart-item-image{
+    width: 250px;
+    border-radius: 2px solid black;
+    padding: 5px 5px 0px 5px;
+}
+.cart-item-name{
+    position: absolute;
+    margin-top: 0px;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "Montserrat",sans-serif;
+    color: #0088a9;
+    
+}
+.cart-item-price{
+    position: absolute;
+    margin-top: 45px;;
+}
+.cart-item-button{
+    position: absolute;
+    margin-top: 120px;
+
+}
+.cart-item-quantity{
+    position: absolute;
+    margin-top: 80px;
+}
+.cart-item-add{
+    position: absolute;
+    margin-left: 20px;
+    margin-top : 130px;
+    color: #0088a9;
+    background-color:#24252A;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 5px 10px 0px gray;
+    height: 30px;
+    width: 25px;
+    padding-top: 3px;
+    padding-left: 15px;
+}
+.cart-item-add:hover{
+    background-color: #0088a9;
+    color:black;
+    cursor: pointer;
+}
+.cart-item-sub{
+    position: absolute;
+    margin-left: 70px;
+    margin-top : 130px;
+    color: #0088a9;
+    background-color:#24252A;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 5px 10px 0px gray;
+    height: 30px;
+    width: 25px;
+    padding-top: 3px;
+    padding-left: 15px;
+}
+.cart-item-sub:hover{
+    background-color: #0088a9;
+    color:black;
+    cursor: pointer;
+}
+.cart-item-button{
+    position: absolute;
+    color: #0088a9;
+    background-color:#24252A;
+    margin-top :  50px;
+    margin-left: 150px;
+    font-size: 16px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 800;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 5px 10px 0px gray;
+    transition :  0.3s ease ;
+}
+.cart-item-button:hover{
+    background-color: #0088a9;
+    color:black;
+    cursor: pointer;
+}
+
+.cart-items-empty-text
+{
+    font-size: 50px;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 120px;
+    color: grey;
+    text-shadow: 0px 0px 10px 0px grey;
+    
+}

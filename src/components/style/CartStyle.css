@@ -1,0 +1,41 @@
+.cart-container{
+    margin-left:250px ;
+    font-family: "Montserrat",sans-serif;
+    margin-top: 50px;
+}
+.cart{
+    width: 80%;
+    height: 400px;
+    overflow: scroll;
+    font-family: "Montserrat",sans-serif;
+    box-shadow: 0px 0px 10px 0px gray   ;
+}
+.cart::-webkit-scrollbar{
+    display: none;
+}
+span{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.cart-span-text{
+    position: absolute;
+    padding-top: 20px;
+}
+.cart-button{
+    position: absolute;
+    color: #0088a9;
+    background-color:#24252A;
+    margin-top :  60px;
+    font-size: 16px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 800;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 5px 10px 0px gray;
+    transition :  0.3s ease ;
+}
+.cart-button:hover{
+    background-color: #0088a9;
+    color:black;
+    cursor: pointer;
+}
